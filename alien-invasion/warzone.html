@@ -4,16 +4,21 @@
 <meta charset="utf-8">
 <title>WarZone by Ben Librojo</title>
 <script src="https://cjrtnc.leaningtech.com/4.3/loader.js"></script>
-<style>body { background:#000; color:#fff; font-family:Verdana,Arial,sans-serif; text-align:center; } a { color:#0f0; }</style>
+<style>body { background:#000; color:#fff; font-family:Verdana,Arial,sans-serif; text-align:center; } a { color:#0f0; }
+  .applet-wrap { position:relative; width:400px; height:350px; margin:0 auto; }
+  .applet-wrap .loading { position:absolute; inset:0; display:flex; align-items:center; justify-content:center; color:#0f0; }</style>
 </head>
 <body>
 <p><img src="tank4.gif" alt="WarZone"></p>
 <p><b>Note:</b> WarZone/e.class was never captured by any archive &mdash; the game may fail when that class is first needed.</p>
 
+<div class="applet-wrap">
+<div class="loading">Loading CheerpJ&hellip;</div>
 <applet codebase="WarZone" code="wireframe.class" width="400" height="350"></applet>
+</div>
 
 <p>Arrow keys drive, t/e rotate turret, r re-centers, [space] fires.</p>
 <p><a href="index.html">Back to arcade</a></p>
-<script>cheerpjInit();</script>
+<script>cheerpjInit().then(function(){ var l=document.querySelector('.loading'); if(l) l.remove(); });</script>
 </body>
 </html>
