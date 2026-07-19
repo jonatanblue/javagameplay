@@ -6,6 +6,8 @@ applets written by **Ben Librojo** (1996–2000), originally hosted at
 long dead. The games were reconstructed from Internet Archive Wayback Machine
 captures in July 2026. The bytecode is unmodified (Java 1.0/1.1 class files).
 
+![Alien Invasion gameplay](screenshot.png)
+
 See [`alien-invasion/MANIFEST.md`](alien-invasion/MANIFEST.md) for full
 provenance: which capture every file came from, integrity checks, and what
 could not be recovered.
