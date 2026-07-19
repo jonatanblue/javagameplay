@@ -1,5 +1,7 @@
 # JavaGamePlay recovery
 
+**▶ Play in your browser: <https://jonatanblue.github.io/javagameplay/>**
+
 Recovery of **Alien Invasion (v2.0)**, **WarZone**, and **WarZone 2**, Java
 applets written by **Ben Librojo** (1996–2000), originally hosted at
 `www.tardis.ed.ac.uk/~benl/` and later `www.javagameplay.com`. Both hosts are
